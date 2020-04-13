@@ -1,0 +1,90 @@
+body{
+    margin: 0;
+}
+
+div.profile{
+    margin: 0;
+    height: 500px;
+    width: 100%;
+    background-color: #b9ebcc;
+    
+    padding-top: 60px;
+    border: 0;
+    text-align: center;
+    position: relative;
+}
+
+h1{
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+img.building_1{
+    height: 350px;
+}
+
+div.build_1{
+    position: relative;
+    top: 80px;
+
+
+}
+
+img.c1{
+    height: 160px;
+}
+
+img.c2{
+    height: 160px;
+    transform: scaleX(-1);
+}
+
+div.cloud_1{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+}
+
+div.cloud_2{
+    position: absolute;
+    top: 80px;
+    right: 400px;
+}
+
+div.profile_text{
+    position: relative;
+    top: 70px;
+}
+
+div.middle-container{
+
+
+}
+
+div.bottom-container{
+
+}
+
+img.pf{
+    height: 16em;
+    position: relative;
+}
+div.profile_pic{
+    text-align: center;
+    position: relative;
+    top:5em;
+
+}
