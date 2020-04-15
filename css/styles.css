@@ -1,8 +1,10 @@
 body{
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
 
-div.profile{
+div.top-container{
     margin: 0;
     height: 500px;
     width: 100%;
@@ -17,11 +19,25 @@ div.profile{
 h1{
     margin-top: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 45px;
+    font-size: 5.625 rem;
+    /* font-size:  562.5%; */
+
+    /* 100% = 16px
+        ?   = 90px */
+    /* 1em  = 16px 
+        rem does not get affected by upstream changes*/
     margin: 0;
     border: 0;
     padding: 0;
     
+}
+
+h2{
+    font-size: 2.5 rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 
 p{
@@ -54,14 +70,14 @@ img.c2{
 
 div.cloud_1{
     position: absolute;
-    top: 150px;
-    left: 500px;
+    top: 10rem;
+    left: 20rem;
 }
 
 div.cloud_2{
     position: absolute;
-    top: 80px;
-    right: 400px;
+    top: 5rem;
+    right: 25rem;
 }
 
 div.profile_text{
