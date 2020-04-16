@@ -6,7 +6,7 @@ body{
 
 div.top-container{
     margin: 0;
-    height: 500px;
+    height: 40rem;
     width: 100%;
     background-color: #b9ebcc;
     
@@ -19,7 +19,7 @@ div.top-container{
 h1{
     margin-top: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 5.625 rem;
+    font-size: 5.2rem;
     /* font-size:  562.5%; */
 
     /* 100% = 16px
@@ -29,23 +29,30 @@ h1{
     margin: 0;
     border: 0;
     padding: 0;
+    color: #66BFBF;
+    line-height: 2;
+
+    
     
 }
 
 h2{
-    font-size: 2.5 rem;
+    font-size: 2rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
     border: 0;
     padding: 0;
+    color: #66BFBF;
+    font-weight: normal;
 }
 
 p{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
+    font-size: 1rem;
     margin: 0;
     border: 0;
     padding: 0;
+    line-height: 1.5;
 }
 
 img.building_1{
@@ -85,22 +92,129 @@ div.profile_text{
     top: 70px;
 }
 
+
+img.pf{
+    height: 16em;
+    position: relative;
+    margin: 2rem;
+}
+div.profile_pic{
+    top:5em;
+    padding: 2rem;
+    width: 50%;
+    margin: auto;
+    
+
+}
+
+
+
 div.middle-container{
+    margin-top: 100px;
 
 
 }
 
 div.bottom-container{
+    background-color: #66BFBF;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+div.skill-row{
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 2;
+    position: relative;
+}
+
+img.skills_1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
 
 }
 
-img.pf{
-    height: 16em;
-    position: relative;
+img.skills_2{
+    width: 25%;
+    float: right;
+    margin: 30px;
+    
 }
-div.profile_pic{
-    text-align: center;
-    position: relative;
-    top:5em;
 
+hr{
+    border: dotted;
+    border-width: 6px;
+    border-bottom: none;
+    border-color: cadetblue;
+    width: 4%;
+    margin: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+div.skills{
+    margin: 30px;
+}
+
+div.contact-message{
+    width: 40%;
+}
+
+a.btn{
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color: #FFFFFF !important;
+font-size: 14px;
+text-shadow: 1px 1px 6px #FFFFFF;
+box-shadow: 1px 1px 1px #BEE2F9;
+padding: 10px 25px;
+-moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+border-radius: 8px;
+border: 1px solid #5B9EA3;
+background: #5FEEC8;
+background: linear-gradient(top,  #6DEEDD,  #42CF84);
+background: -ms-linear-gradient(top,  #6DEEDD,  #42CF84);
+background: -webkit-gradient(linear, left top, left bottom, from(#6DEEDD), to(#42CF84));
+background: -moz-linear-gradient(top,  #6DEEDD,  #42CF84);
+}
+
+a.btn:hover {
+color: #14396A !important;
+background: #468CCF;
+background: linear-gradient(top,  #468CCF,  #63B8EE);
+background: -ms-linear-gradient(top,  #468CCF,  #63B8EE);
+background: -webkit-gradient(linear, left top, left bottom, from(#468CCF), to(#63B8EE));
+background: -moz-linear-gradient(top,  #468CCF,  #63B8EE);
+}
+
+div.cb{
+    margin: 20px;
+}
+
+div.contact-me{
+    margin: 60px;
+}
+
+a{
+    color: rgb(100, 125, 237);
+    text-decoration: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a:hover{
+    color: darkblue;
+}
+
+p.copy-right{
+    color: #eaf6f6;
+    font-size: .75rem;
+    padding: 20px;
 }
